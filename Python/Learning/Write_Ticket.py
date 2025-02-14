@@ -1,7 +1,6 @@
 import pyautogui
 import time
 import pyperclip
-import os
 
 time.sleep(5)
 def click_1():
@@ -11,8 +10,8 @@ def click_1():
     time.sleep(2)
 
 def write_1(name):
-    pyperclip.copy("Обхід пк " + name)
-    time.sleep(0.3)
+    pyperclip.copy("Налаштування баз в 1С " + name)
+    time.sleep(0.5)
     pyautogui.hotkey('ctrl', 'v')
     
 def click_2():
